@@ -58,11 +58,11 @@ This project provides data-driven answers to the following 15 business-critical 
 15.Pre-emptive Restocking: Identifying "In-Stock" items with critically low inventory (<10 units).
 
 ## 🚀 Technical Highlights
-* **Window Functions: Utilized RANK() over PARTITION BY to find top-performing products within specific categories.
+* Window Functions: Utilized RANK() over PARTITION BY to find top-performing products within specific categories.
 
-* **Conditional Logic: Implemented complex CASE statements to segment data by weight and price.
+* Conditional Logic: Implemented complex CASE statements to segment data by weight and price.
 
-* **Data Quality Assurance: Built custom scripts to detect and delete records with ₹0 MRP and fix unit conversion errors.
+* Data Quality Assurance: Built custom scripts to detect and delete records with ₹0 MRP and fix unit conversion errors.
 
 
 
