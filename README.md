@@ -1,16 +1,15 @@
-Zepto Inventory & Sales Performance Analysis (SQL)
-📌 Project Overview
-This project analyzes a comprehensive Zepto Inventory Dataset consisting of over 1,000+ stock-keeping units (SKUs). The dataset provides a granular look at quick-commerce operations, including product categorization, real-time stock status, weight metrics, and complex pricing structures (MRP vs. Discounted Prices).
+# Zepto Inventory & Sales Performance Analysis (SQL)
 
-🎯 Objectives
-Data Integrity & Cleaning: Perform robust EDA to identify null values, handle pricing anomalies (converting paise to rupees), and eliminate invalid records to ensure high-quality analysis.
+## 📌 Project Overview
+This project analyzes a comprehensive **Zepto Inventory Dataset** consisting of over 1,000+ stock-keeping units (SKUs). The dataset provides a granular look at quick-commerce operations, including product categorization, real-time stock status, weight metrics, and complex pricing structures (MRP vs. Discounted Prices).
 
-Inventory Optimization: Analyze stock-out patterns and "Critical Stock" levels to identify supply chain gaps and prevent revenue leakage.
+## 🎯 Objectives
+* **Data Integrity & Cleaning:** Perform robust EDA to identify null values, handle pricing anomalies (converting paise to rupees), and eliminate invalid records to ensure high-quality analysis.
+* **Inventory Optimization:** Analyze stock-out patterns and "Critical Stock" levels to identify supply chain gaps and prevent revenue leakage.
+* **Pricing Strategy:** Evaluate discount effectiveness and price-per-gram value to understand how Zepto balances "Budget" vs. "Premium" market segments.
 
-Pricing Strategy: Evaluate discount effectiveness and price-per-gram value to understand how Zepto balances "Budget" vs. "Premium" market segments.
-
-🗄️ Database Schema
-SQL
+## 🗄️ Database Schema
+```sql
 CREATE TABLE zepto(
     sku_id SERIAL PRIMARY KEY,
     category VARCHAR(120),
